@@ -1,0 +1,8 @@
+services:
+  postgresql1:
+      image: postgres
+      environment:
+        POSTGRES_USER: sidvil
+        POSTGRES_PASSWORD: sidvil
+      ports:
+        - 5432:5432
